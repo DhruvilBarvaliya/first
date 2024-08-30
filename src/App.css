@@ -1,0 +1,107 @@
+/* App.css */
+:root {
+    --primary-color: #4A90E2; /* Soft blue for primary elements */
+    --secondary-color: #FFFFFF; /* White for background */
+    --accent-color: #F5A623; /* Warm accent color for buttons */
+    --text-color: #333333; /* Dark grey for text */
+    --light-grey: #F7F7F7; /* Light grey for backgrounds */
+    --border-color: #E0E0E0; /* Light border color */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-grey);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.app2 {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.filters h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: #fff;
+}
+
+.filter-group input::placeholder {
+    color: #999999;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5941c;
+}
+
+.property-list {
+    margin-top: 20px;
+}
+
+.property-item {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.property-item p {
+    margin: 5px 0;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.property-item p:first-child {
+    font-weight: bold;
+    color: var(--primary-color);
+}
